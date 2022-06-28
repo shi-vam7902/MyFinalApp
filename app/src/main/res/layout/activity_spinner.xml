@@ -4,6 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SpinnerActivity">
+    tools:context=".SpinnerActivity"
+    android:orientation="vertical"
+    android:padding="30dp">
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_selected_item"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textColor="@color/purple_500"/>
 
 </LinearLayout>
